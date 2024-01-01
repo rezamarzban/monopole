@@ -1,7 +1,7 @@
 # pip install PyNEC==1.7.3.4
 # pip install necpp (Optional)
 #
-# Monopole antenna length=3m, Frequency range=80 to 120MHZ, Reference impedance=50Ohms
+# Monopole antenna length=3m, Frequency range=20 to 30MHZ, Reference impedance=50Ohms
 #
 # Number of segments ,Source voltage and etc can be set at monopole.py
 #
@@ -16,7 +16,7 @@ import pylab as plt
 import monopole
 from antenna_util import reflection_coefficient
 
-freqs = np.linspace(80, 120)
+freqs = np.linspace(20, 30)
 real_impedances = []
 reflections = []
 z0 = 50
